@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="601.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FINALS.startupController">
+   <children>
+      <Polygon fill="#5b8aae" layoutX="656.0" layoutY="439.0" points="-120.41119384765625, -385.3840026855469, -55.00006103515625, -277.3840026855469, 14.58880615234375, -483.5420837402344" stroke="#88beeb" strokeLineCap="BUTT" strokeLineJoin="BEVEL" />
+      <Polygon fill="#5f8eb8" layoutX="856.0" layoutY="144.0" points="-568.4111938476562, -153.38421630859375, -223.41119384765625, -61.384735107421875, -186.41119384765625, -227.38473510742188" stroke="#88beeb" strokeLineCap="BUTT" strokeLineJoin="BEVEL" />
+      <Polygon fill="#5b8aae" layoutX="143.0" layoutY="460.0" points="-187.0, -169.0, 72.58880615234375, -147.54208374023438, -107.070068359375, -303.5071716308594" stroke="#88beeb" strokeLineCap="BUTT" strokeLineJoin="BEVEL" />
+      <Polygon fill="#5f8eb8" layoutX="317.0" layoutY="408.0" points="-574.6438598632812, -158.45523071289062, -167.685546875, -49.440887451171875, -317.0, -321.4408874511719" stroke="#88beeb" strokeLineCap="BUTT" strokeLineJoin="BEVEL" />
+      <Label layoutX="55.0" layoutY="14.0" text="BibboNacci SimulaTORR">
+         <font>
+            <Font name="Comic Sans MS Bold" size="42.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" alignment="CENTER" layoutX="120.0" layoutY="191.0" prefHeight="29.0" prefWidth="362.0">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Label layoutX="175.0" layoutY="162.0" prefHeight="29.0" prefWidth="252.0" text="Please enter your name">
+         <font>
+            <Font name="Comic Sans MS Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label ellipsisString="" layoutX="48.0" layoutY="66.0" prefHeight="60.0" prefWidth="505.0" text="This is a simulation based on the concepts of the Fibonacci Sequence applied with Exceptions and File Handling" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="toEditor" layoutX="427.0" layoutY="245.0" mnemonicParsing="false" onAction="#nextScene" prefHeight="32.0" prefWidth="148.0" style="-fx-background-color: lightblue; -fx-text-fill: black;" text="Continue to EdiTORR" />
+   </children>
+</Pane>
